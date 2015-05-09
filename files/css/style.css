@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import "common/base.css";
+
+/* Common */
+/*-----------------------------------------*/
+
+#all {
+	width:900px;
+	margin:0 auto;
+	padding-top:30px;
+}
+h1 {
+	font-family:"Courier New", Courier, monospace;
+	font-size:20px;
+	text-align:center;
+}
+button {
+	border:none;
+	background:none;
+	border:1px solid #CCC;
+	padding:5px 10px;
+	border-radius:4px;
+	cursor:pointer;
+	margin-left:10px;
+}

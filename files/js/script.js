@@ -19,7 +19,7 @@
       render: function() {
         return (
           <div className="commentForm">
-          Hello, world! I am a CommentForm.
+          <p>Hello, world! I am a CommentForm.</p>
           </div>
         );
       }
@@ -32,7 +32,7 @@
             <h2 className="commentAuthor">
               {this.props.author}
             </h2>
-            {this.props.children}
+            <p>{this.props.children}</p>
           </div>
         );
       }
